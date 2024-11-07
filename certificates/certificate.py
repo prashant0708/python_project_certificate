@@ -9,9 +9,7 @@ class cerf:
     self.assignment=assignment
     
   def generate_certificate(self):
-    dicts={}
-    if self.classes.lower()=='yes' and self.assignment.lower()=='yes':
-      dicts={'name':self.name,
+    dicts={'name':self.name,
              'course':self.course}
-      return dicts
+    return dicts
       
